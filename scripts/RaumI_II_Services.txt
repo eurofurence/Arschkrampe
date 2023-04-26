@@ -1,0 +1,16 @@
+# Filename
+NAME=RaumI_II_Services_alleTage
+# Orientation, landscape or portrait
+ORIENTATION=portrait
+# Type, services for Convention Service or rooms for Event Rooms
+TYPE=rooms
+## ROOMS (up, down, left, right, turn, elevator, wheelchair, medic)
+## Syntax: ROOM_N=("ARROWDIRECTION" "ROOM NAME" "ROOM SUBTEXT" "ADDITIONAL ICON")
+ROOM_0=("right" "Fursuit Lounge" "ECC Room 3")
+ROOM_1=()
+ROOM_2=()
+ROOM_3=()
+ROOM_4=()
+ROOM_5=()
+## Only Set Room 6 for Portrait
+ROOM_6=()

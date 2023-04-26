@@ -1,0 +1,16 @@
+# Filename
+NAME=Rotunde_Rechts_Rooms_alleTage
+# Orientation, landscape or portrait
+ORIENTATION=landscape
+# Type for header, "rooms" for Event Rooms, "services" for "Conventions Services" - use TYPE=(rooms "STRING") for custom string
+TYPE=(rooms)
+## ROOMS (up, down, left, right, turn, elevator, wheelchair, medic)
+## Syntax: ROOM_N=("ARROWDIRECTION" "ROOM NAME" "ROOM SUBTEXT" "ADDITIONAL ICON")
+ROOM_0=("up" "ECC Room 1")
+ROOM_1=("up" "ECC Room 4 & 5")
+ROOM_2=("up" "Open Stage" "ECC Foyer 1")
+ROOM_3=("up" "Main Stage" "ECC A")
+ROOM_4=()
+ROOM_5=()
+## Only Set Room 6 for Portrait
+ROOM_6=()

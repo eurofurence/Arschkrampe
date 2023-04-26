@@ -1,0 +1,16 @@
+# Filename
+NAME=Passage_Services_2_bisMittwoch
+# Orientation, landscape or portrait
+ORIENTATION=portrait
+# Type for header, "rooms" for Event Rooms, "services" for "Conventions Services" - use TYPE=(rooms "STRING") for custom string
+TYPE=(services "2/2")
+## ROOMS (up, down, left, right, turn, elevator, stairs, blank)
+## WARNING: ESCAPE ' with '\''
+ROOM_0=("left" "Fursuit Mini Lounge" "Large Gallery")
+ROOM_1=("up" "Fursuit Photoshoot" "Access through Art Show")
+ROOM_2=("up" "Photo Booth" "Foyer 1")
+ROOM_3=("left" "Registration" "Room Paris")
+ROOM_4=("right" "Security" "Estrel Hall C" "medic")
+ROOM_5=()
+## Only Set Room 6 for Portrait
+ROOM_6=()

@@ -1,0 +1,16 @@
+# Filename
+NAME=Galerie_Services_abDonnerstag
+# Orientation, landscape or portrait
+ORIENTATION=portrait
+# Type, services for Convention Service or rooms for Event Rooms
+TYPE=services
+## ROOMS (up, down, left, right, turn, elevator, wheelchair, medic)
+## Syntax: ROOM_N=("ARROWDIRECTION" "ROOM NAME" "ROOM SUBTEXT" "ADDITIONAL ICON")
+ROOM_0=("right" "Convention Store" "Inside the Dealers' Den")
+ROOM_1=("right" "Fursuit Badges" "at Security")
+ROOM_2=("right" "Fursuit Mini Lounge" "Large Gallery")
+ROOM_3=("left" "Media Desk" "Small Gallery")
+ROOM_4=("right" "Registration" "at Security")
+ROOM_5=("right" "Security" "Estrel Hall C" "medic")
+## Only Set Room 6 for Portrait
+ROOM_6=("right" "All Other Services" "see next display")

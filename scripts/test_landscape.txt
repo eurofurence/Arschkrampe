@@ -1,0 +1,16 @@
+# Filename
+NAME=testfile_landscape
+# Orientation, landscape or portrait
+ORIENTATION=landscape
+# Type for header, "rooms" for Event Rooms, "services" for "Conventions Services" - use TYPE=(rooms "STRING") for custom string
+TYPE=(rooms "1/-251")
+## ROOMS (up, down, left, right, turn, elevator, stairs, blank)
+## WARNING: ESCAPE ' with '\''
+ROOM_0=("up" "Item 1" "Estrel Center 1")
+ROOM_1=("down" "Item 2" "Estrel Center 2")
+ROOM_2=("left" "Item 3" "Estrel Center 3")
+ROOM_3=("right" "Item 4" "Estrel Center 4")
+ROOM_4=("turn" "Item 5" "Estrel Center 5")
+ROOM_5=("elevator" "Item 6" "Estrel Center 6")
+## Only Set Room 6 for Portrait
+ROOM_6=()

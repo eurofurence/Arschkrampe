@@ -1,0 +1,16 @@
+# Filename
+NAME=testfile_landscape_newline
+# Orientation, landscape or portrait
+ORIENTATION=landscape
+# Type for header, "rooms" for Event Rooms, "services" for "Conventions Services" - use TYPE=(rooms "STRING") for custom string
+TYPE=(rooms "1/-251")
+## ROOMS (up, down, left, right, turn, elevator, wheelchair, medic)
+## Syntax: ROOM_N=("ARROWDIRECTION" "ROOM NAME" "ROOM SUBTEXT" "ADDITIONAL ICON")
+ROOM_0=("up" "Item 1" "Estrel Center 1" "wheelchair")
+ROOM_1=("here" "Warning, long\nitem!" "Estrel Center 2\n...and maybe behind you" "wheelchair")
+ROOM_2=()
+ROOM_3=("right" "Item 4" "Estrel Center 4" "medic")
+ROOM_4=("turn" "Item 5" "Estrel Center 5")
+ROOM_5=("elevator" "Item 6" "Estrel Center 6")
+## Only Set Room 6 for Portrait
+ROOM_6=()

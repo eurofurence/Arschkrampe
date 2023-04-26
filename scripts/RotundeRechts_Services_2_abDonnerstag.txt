@@ -1,0 +1,16 @@
+# Filename
+NAME=Rotunde_Rechts_Services_2_abDonnerstag
+# Orientation, landscape or portrait
+ORIENTATION=landscape
+# Type for header, "rooms" for Event Rooms, "services" for "Conventions Services" - use TYPE=(rooms "STRING") for custom string
+TYPE=(services "2/2")
+## ROOMS (up, down, left, right, turn, elevator, wheelchair, medic)
+## Syntax: ROOM_N=("ARROWDIRECTION" "ROOM NAME" "ROOM SUBTEXT" "ADDITIONAL ICON")
+ROOM_0=("right" "Art Show" "ECC D")
+ROOM_1=("right" "Convention Store" "Inside the Dealers' Den")
+ROOM_2=("right" "Dealers' Den" "ECC C")
+ROOM_3=("up" "Fursuit Lounge" "ECC Room 3")
+ROOM_4=("right" "Fursuit Photoshoot" "Access through Art Show")
+ROOM_5=("up" "Photo Booth" "Foyer 1")
+## Only Set Room 6 for Portrait
+ROOM_6=()

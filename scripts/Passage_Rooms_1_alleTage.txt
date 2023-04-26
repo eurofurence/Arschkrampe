@@ -1,0 +1,16 @@
+# Filename
+NAME=Passage_Rooms_1_alleTage
+# Orientation, landscape or portrait
+ORIENTATION=portrait
+# Type for header, "rooms" for Event Rooms, "services" for "Conventions Services" - use TYPE=(rooms "STRING") for custom string
+TYPE=(rooms "1/2")
+## ROOMS (up, down, left, right, turn, elevator, wheelchair, medic)
+## Syntax: ROOM_N=("ARROWDIRECTION" "ROOM NAME" "ROOM SUBTEXT" "ADDITIONAL ICON")
+ROOM_0=("turn" "Cannes" "Wing 1")
+ROOM_1=("right" "Club Stage" "Estrel Hall A")
+ROOM_2=("up" "ECC Room 1 to 5")
+ROOM_3=("left" "Lyon" "Wing 3")
+ROOM_4=("up" "Main Stage" "ECC A")
+ROOM_5=("turn" "Nizza" "Wing 1")
+## Only Set Room 6 for Portrait
+ROOM_6=("left" "Office Passage" "Wing 2")

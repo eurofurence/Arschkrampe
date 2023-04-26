@@ -1,0 +1,16 @@
+# Filename
+NAME=Foyer3_ueber_Tuer_Services_1_abDonnerstag
+# Orientation, landscape or portrait
+ORIENTATION=landscape
+# Type for header, "rooms" for Event Rooms, "services" for "Conventions Services" - use TYPE=(rooms "STRING") for custom string
+TYPE=(services "1/2")
+## ROOMS (up, down, left, right, turn, elevator, wheelchair, medic)
+## Syntax: ROOM_N=("ARROWDIRECTION" "ROOM NAME" "ROOM SUBTEXT" "ADDITIONAL ICON")
+ROOM_0=("up" "Artist Alley" "Foyer 3")
+ROOM_1=("up" "Art Show" "ECC D")
+ROOM_2=()
+ROOM_3=("up" "Fursuit Photoshoot" "Access through Art Show")
+ROOM_4=()
+ROOM_5=()
+## Only Set Room 6 for Portrait
+ROOM_6=()
